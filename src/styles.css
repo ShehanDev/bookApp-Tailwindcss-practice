@@ -8,9 +8,12 @@
 /* resuable clasess */
 
 .card{
-    @apply bg-white rounded overflow-hidden max-w-xs   border-gray-200  bg-white shadow-lg justify-center relative m-4;
+    @apply bg-white rounded overflow-hidden    border-gray-200  bg-white shadow-lg justify-center relative;
   }
   
   .badge{
     @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  }
+  .btn{
+    @apply rounded-full py-2 px-3 uppercase font-bold cursor-pointer;
   }
