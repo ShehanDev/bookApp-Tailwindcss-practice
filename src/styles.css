@@ -1,3 +1,16 @@
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* resuable clasess */
+
+.card{
+    @apply bg-white rounded overflow-hidden max-w-xs   border-gray-200  bg-white shadow-lg justify-center relative m-4;
+  }
+  
+  .badge{
+    @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  }
